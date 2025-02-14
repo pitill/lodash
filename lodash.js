@@ -17199,6 +17199,7 @@
   else if (freeModule) {
     // Export for Node.js.
     (freeModule.exports = _)._ = _;
+    _.default = _
     // Export for CommonJS support.
     freeExports._ = _;
   }
